@@ -1,4 +1,3 @@
-
 ---
 title: "How to use purchased theme with jekyll"
 comments: true
