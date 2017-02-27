@@ -20,13 +20,13 @@ lets see how we can add images,videos and audio to our jekyll powered blog or we
 the markdown code to add an image to your post :
 
 
-`![image-title-here](/path/to/image.jpg){:class="img-responsive"})`
+`<img src="{{ site.baseurl }}/path/to/img/toto.jpg">`
 
 It is preferable to create an image or multimedia folder on the root of your project to better organise your file.
 
 if the code above worked you should have your image working like this !
 <img src="{{ site.baseurl }}/assets/images/markdown.jpg">
-![Markdown-is-awesome](/blog/assets/images/markdown.jpg)
+
 
 **Adding videos**
 
