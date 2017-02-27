@@ -34,7 +34,7 @@ To add add video your your Jekyll website you will first have include a plugin t
 
 1.Under your _includes folder, add [this file](https://github.com/IziDevSpot/blog/blob/master/_includes/video) wich is an helper for displaying youtube and vimeo video.
 
-{% highlightruby %}
+{% highlight ruby %}
 
 {% include video id="XsxDH4HcOWA" provider="youtube" %}
 
