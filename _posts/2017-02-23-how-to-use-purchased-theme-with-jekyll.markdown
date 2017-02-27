@@ -9,7 +9,7 @@ tags:
   - layout
 ---
 
-in this Tutorial you are going to learn how to  use a purchased theme for your website or blog powered by jekyll.
+In this Tutorial you are going to learn how to  use a purchased theme for your website or blog powered by jekyll.
 
 A theme for Jekyll cost more or less $ 24 dollar on [ThemeForest](https://themeforest.net/?ref=izidevspot/category/static-site-generators/jekyll). All you have to do is download the zip package of your purchased theme in the folder directory where your project will live.
 
