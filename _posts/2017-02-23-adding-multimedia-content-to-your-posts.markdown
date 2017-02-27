@@ -26,7 +26,7 @@ It is preferable to create an image or multimedia folder on the root of your pro
 
 if the code above worked you should have your image working like this !
 
-![Markdown-is-awesome](/assets/images/markdown.jpg)
+![Markdown-is-awesome](/blog/assets/images/markdown.jpg)
 
 **Adding videos**
 
