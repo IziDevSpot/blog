@@ -26,56 +26,15 @@ It is preferable to create an image or multimedia folder on the root of your pro
 
 if the code above worked you should have your image working like this !
 
-![Markdown-is-awesome](/multimedia/markdown.jpg){:class="img-responsive"}
+![Markdown-is-awesome](/assets/images/markdown.jpg){:class="img-responsive"}
 
 **Adding videos**
+To add add video your your Jekyll website you will first have include a plugin that will allow liquid, the templating system that Jekyll use to be be able to interpret the embeded code that you will will provide.
 
-A solution to easyly embed video from youtube is provided on github by [@joelverhagen](https://gist.github.com/joelverhagen/1805814)
+1.
 
-The process is really simple, on your root folder create a new folder if not exist called _plugin, create a new file inside this directory called youtube.rb :
 
-{% highlight ruby %}
-class YouTube < Liquid::Tag
-  Syntax = /^\s*([^\s]+)(\s+(\d+)\s+(\d+)\s*)?/
-
-  def initialize(tagName, markup, tokens)
-    super
-
-    if markup =~ Syntax then
-      @id = $1
-
-      if $2.nil? then
-          @width = 560
-          @height = 420
-      else
-          @width = $2.to_i
-          @height = $3.to_i
-      end
-    else
-      raise "No YouTube ID provided in the \"youtube\" tag"
-    end
-  end
-
-  def render(context)
-    # "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\"allowfullscreen></iframe>"
-    "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}?color=white&theme=light\"></iframe>"
-  end
-
-  Liquid::Template.register_tag "youtube", self
-end
-{% endhighlight %}
-
-Then you can use the following code with the youtube video url you want to display (dont't forget to replace with your video id):
-
-{% raw %}
-`{% youtube oHg5SJYRHA0 %}`
-
-{% endraw %}
-
-Now you can see the result:
-
-{% youtube oHg5SJYRHA0 %}
-
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 
 
