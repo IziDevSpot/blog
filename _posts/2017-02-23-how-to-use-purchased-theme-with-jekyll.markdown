@@ -12,7 +12,7 @@ tags:
 
 in this Tutorial you are going to learn how to  use a purchased theme for your website or blog powered by jekyll.
 
-A theme for Jekyll cost more or less $ 24 dollar on [ThemeForest](https://themeforest.net/izidevspot/category/static-site-generators/jekyll). All you have to do is download the zip package of your purchased theme in the folder directory where your project will live.
+A theme for Jekyll cost more or less $ 24 dollar on [ThemeForest](https://themeforest.net/?ref=izidevspot/category/static-site-generators/jekyll). All you have to do is download the zip package of your purchased theme in the folder directory where your project will live.
 
 One extracted you will open a terminal window into the directory of your extracted content where the `_config.yml` is located.
 
@@ -33,4 +33,4 @@ On your `_config.yml` your baseurl should stay empty:
 `baseurl: ""`
 
 
-Hopefully this little tutorial hepled you setting up a [purchased theme](https://themeforest.net/izidevspotcategory/static-site-generators/jekyll) for your website or blog. Namaste !
+Hopefully this little tutorial hepled you setting up a [purchased theme](https://themeforest.net/?ref=izidevspot/category/static-site-generators/jekyll) for your website or blog. Namaste !
