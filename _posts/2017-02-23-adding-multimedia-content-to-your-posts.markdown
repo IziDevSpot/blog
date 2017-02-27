@@ -1,5 +1,5 @@
 ---
-title: "2017-02-23-adding-multimedia-content-to-your-posts"
+title: "Adding-multimedia-content-to-your-posts"
 comments: true
 categories:
   - Jekyll
@@ -26,12 +26,19 @@ It is preferable to create an image or multimedia folder on the root of your pro
 
 if the code above worked you should have your image working like this !
 
-![Markdown-is-awesome](/assets/images/markdown.jpg){:class="img-responsive"}
+![Markdown-is-awesome](/assets/images/markdown.jpg){:class="img-responsive"})
 
 **Adding videos**
+
 To add add video your your Jekyll website you will first have include a plugin that will allow liquid, the templating system that Jekyll use to be be able to interpret the embeded code that you will will provide.
 
-1.
+1.Under your _includes folder, add [this file](https://github.com/IziDevSpot/blog/blob/master/_includes/video) wich is an helper for displaying youtube and vimeo video.
+
+{% highlightruby %}
+
+{% include video id="XsxDH4HcOWA" provider="youtube" %}
+
+{% endhighlight %}
 
 {% include video id="XsxDH4HcOWA" provider="youtube" %}
 
