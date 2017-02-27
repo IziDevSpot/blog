@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Ismael Chery"
-  avatar           : "{{ site.baseurl }}/assets/images/izi.jpg"
+  avatar           : "/assets/images/izi.jpg"
   bio              : "Ruby on rails enthusiast, programmer,jekyll lover, everyday learner. "
   location         : "Haiti"
   email            : "izidevspot@gmail.com"
