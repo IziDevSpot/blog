@@ -33,16 +33,11 @@ if the code above worked you should have your image working like this !
 To add add video your your Jekyll website you will first have include a plugin that will allow liquid, the templating system that Jekyll use to be be able to interpret the embeded code that you will will provide.
 
 1.Under your _includes folder, add [this file](https://github.com/IziDevSpot/blog/blob/master/_includes/video) which is an helper for displaying youtube and vimeo video.
-
-{% raw %}
 {% highlight ruby %}
-
+{% raw %}
 {% include video id="XsxDH4HcOWA" provider="youtube" %}
-
-{% endhighlight %}
-
 {% endraw %}
-
+{% endhighlight %}
 {% include video id="XsxDH4HcOWA" provider="youtube" %}
 
 
