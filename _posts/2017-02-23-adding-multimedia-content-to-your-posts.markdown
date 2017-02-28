@@ -39,9 +39,4 @@ To add video your-your Jekyll website you will first have to include a plugin th
 {% endhighlight %}
 {% include video id="XsxDH4HcOWA" provider="youtube" %}
 
-
-
-**Adding audio**
-
-SoundCloud is the most popular platform for audio uploads and distribution over the internet. 
-To add audio to your Jekyll you first going create a new file under  `_plugins` directory and name it  `sc_player.rb` and copy/paste the following code:
+Thanks for reading more tips will be coming in the next posts.
