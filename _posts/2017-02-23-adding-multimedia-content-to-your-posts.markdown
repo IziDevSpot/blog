@@ -1,5 +1,5 @@
 ---
-title: "Adding-multimedia-content-to-your-posts"
+title: "Adding multimedia content to your posts"
 comments: true
 categories:
   - Jekyll
@@ -9,10 +9,9 @@ tags:
   - layout
 ---
 
+esides text, you should be able to add multimedia content to your post.
 
-You want to make your blog pretty and make your post a little more descriptive.To do that you should be able to add multimedia content that reflect the topic that your blog and posts are about.
-
-lets see how we can add images,videos and audio to our jekyll powered blog or website.
+let us see how we can add images, videos, and audio to our Jekyll powered blog or website.
 
 
 **Adding images**
@@ -22,7 +21,7 @@ the markdown code to add an image to your post :
 
 `<img src="{{ site.baseurl }}/path/to/img/toto.jpg">`
 
-It is preferable to create an image or multimedia folder on the root of your project to better organise your file.
+It is preferable to create an image or multimedia folder on the root of your project to better organize your file.
 
 if the code above worked you should have your image working like this !
 <img src="{{ site.baseurl }}/assets/images/markdown.jpg">
@@ -30,7 +29,7 @@ if the code above worked you should have your image working like this !
 
 **Adding videos**
 
-To add add video your your Jekyll website you will first have include a plugin that will allow liquid, the templating system that Jekyll use to be be able to interpret the embeded code that you will will provide.
+To add video your-your Jekyll website you will first have to include a plugin that will allow liquid, the templating system that Jekyll use to be-be able to interpret the embedded code that you will-will provide.
 
 1.Under your _includes folder, add [this file](https://github.com/IziDevSpot/blog/blob/master/_includes/video) which is an helper for displaying youtube and vimeo video.
 {% highlight ruby %}
@@ -44,6 +43,5 @@ To add add video your your Jekyll website you will first have include a plugin t
 
 **Adding audio**
 
-Soundclound is the most popular plaform for audio updloads and distribution over the internet. 
-To add audio to your jekyll you first going create a new file under  `_plugins` direcatory and name it  `sc_player.rb` and copy/paste the following code :
-
+SoundCloud is the most popular platform for audio uploads and distribution over the internet. 
+To add audio to your Jekyll you first going create a new file under  `_plugins` directory and name it  `sc_player.rb` and copy/paste the following code:
