@@ -9,7 +9,7 @@ tags:
   - layout
 ---
 
-esides text, you should be able to add multimedia content to your post.
+Besides text, you should be able to add multimedia content to your post.
 
 let us see how we can add images, videos, and audio to our Jekyll powered blog or website.
 
