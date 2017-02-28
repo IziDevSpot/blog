@@ -99,13 +99,6 @@ more references can be found on the [jekyll documentation page](https://jekyllrb
 
 *Next steps:*
 
-[how to  use purchased theme with jekyll](#)
-
-[How to add comments to your blog post](#)
-
-[How to add images to your blog post](#)
-
-[Deploy your blog to GitHub page ](#)
 
 [docs]: https://jekyllrb.com/docs/structure/
 [Markdown]: https://daringfireball.net/projects/markdown/
